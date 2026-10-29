@@ -1,0 +1,52 @@
+[
+  {
+    "id": 1,
+    "cover_img": "https://images.unsplash.com/photo-1498050108023-c5249f4df085",
+    "author": "Mojahid Islam",
+    "author_img": "https://i.pravatar.cc/150?img=12",
+    "title": "The Complete Guide to Modern Web Development",
+    "hashtage": ["WebDevelopment", "JavaScript", "Programming"],
+    "reading_time": 8,
+    "posted_date": "2026-10-25"
+  },
+  {
+    "id": 2,
+    "cover_img": "https://images.unsplash.com/photo-1516321318423-f06f85e504b3",
+    "author": "Rahim Ahmed",
+    "author_img": "https://i.pravatar.cc/150?img=11",
+    "title": "How Artificial Intelligence Is Changing Our World",
+    "hashtage": ["AI", "Technology", "Innovation"],
+    "reading_time": 6,
+    "posted_date": "2026-10-24"
+  },
+  {
+    "id": 3,
+    "cover_img": "https://images.unsplash.com/photo-1519389950473-47ba0277781c",
+    "author": "Nusrat Jahan",
+    "author_img": "https://i.pravatar.cc/150?img=47",
+    "title": "10 Tips to Become a Better Programmer",
+    "hashtage": ["Coding", "Programming", "Career"],
+    "reading_time": 5,
+    "posted_date": "2026-10-23"
+  },
+  {
+    "id": 4,
+    "cover_img": "https://images.unsplash.com/photo-1555066931-4365d14bab8c",
+    "author": "Tanvir Hasan",
+    "author_img": "https://i.pravatar.cc/150?img=13",
+    "title": "Understanding Git and GitHub for Beginners",
+    "hashtage": ["Git", "GitHub", "WebDevelopment"],
+    "reading_time": 7,
+    "posted_date": "2026-10-22"
+  },
+  {
+    "id": 5,
+    "cover_img": "https://images.unsplash.com/photo-1516321318423-f06f85e504b3",
+    "author": "Sadia Islam",
+    "author_img": "https://i.pravatar.cc/150?img=44",
+    "title": "Why Learning React Is Worth Your Time",
+    "hashtage": ["React", "JavaScript", "Frontend"],
+    "reading_time": 9,
+    "posted_date": "2026-10-21"
+  }
+]
