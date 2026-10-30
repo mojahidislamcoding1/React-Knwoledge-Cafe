@@ -1,7 +1,7 @@
 import { FaBookmark } from 'react-icons/fa';
 
-const Blog = ({blog}) => {
-  const {title , cover_img , author , author_img ,hashtage,reading_time, posted_date,} = blog;
+const Blog = ({blog , handleBookmars ,handleMarkAsRead}) => {
+  const {id, title , cover_img , author , author_img ,hashtage,reading_time, posted_date,} = blog;
   return (
     
     <div className="mb-15 mt-7">  
@@ -17,19 +17,26 @@ const Blog = ({blog}) => {
       </div>
     <div className='flex gap-2 items-center'>
         <span className="text-gray-500">0{reading_time} min read</span>
-      <button className=' text-2xl text-gray-600 '><FaBookmark></FaBookmark></button>
+      <button 
+      onClick={() => handleBookmars(blog)}
+      className=' text-2xl text-gray-600 cursor-pointer'
+      ><FaBookmark></FaBookmark>
+      </button>
     </div>
      </div>
 
      {/* title and hashtag or mark section */}
    <div className="space-y-1  mt-3">
-      <h2 className="text-3xl font-semibold">{title}</h2>
+      <h2 className="text-xl md:text-3xl font-semibold">{title}</h2>
       <p>
         {
           hashtage.map(hash => <span><a href="">#{hash}</a></span>)
         }
       </p>
-        <button className="text-blue-500 underline cursor-pointer">Mark as read</button>
+        <button 
+          onClick={() => handleMarkAsRead(reading_time , id)}
+          className="text-blue-500 underline cursor-pointer"
+          >Mark as read</button>
    </div>
     </div>
   );
